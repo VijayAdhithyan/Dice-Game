@@ -26,7 +26,7 @@ function player1Turn() {
     image1.setAttribute("src", res2);
     player1Score += randomNumber1;
     player1ScoreUpdate.textContent = player1Score;
-    if (player1Score >= 10) {
+    if (player1Score >= 30) {
       player2 = false;
       player1 = false;
       playerName.textContent = "Player-1 win";
@@ -52,7 +52,7 @@ function player2Turn() {
     image1.setAttribute("src", res2);
     player2Score += randomNumber2;
     player2ScoreUpdate.textContent = player2Score;
-    if (player2Score >= 10) {
+    if (player2Score >= 30) {
       player1 = false;
       player2 = false;
       playerName.textContent = "Player-2 win";
