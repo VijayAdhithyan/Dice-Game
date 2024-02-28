@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  row-gap: 10px;
+}
+
+.game-title {
+  text-align: center;
+  font-size: 18px;
+  color: green;
+}
+
+.player-title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.play-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 200px;
+}
+
+.players-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.dice-container {
+  margin-top: 50px;
+}
+
+.dice-container > img{
+    margin-top: 100px;
+}
+
+.reset-btn {
+  cursor: pointer;
+  margin-top: 90px;
+  padding: 6px 0px;
+  background-color: pink;
+  text-align: center;
+  font-weight: 600;
+}
+
+.players-name {
+  text-align: center;
+  font-size: 24px;
+}
+
+.players-score {
+  text-align: center;
+  font-size: 28px;
+}
+
+.players-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #555;
+}
+
+.active {
+  background-color: green;
+}
