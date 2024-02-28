@@ -82,6 +82,7 @@ function resetGame() {
   image2.setAttribute("src", diceStart);
   player1 = false;
   player2 = true;
+  playerName.textContent = "Player-2 to play";
   player1Btn.classList.remove("active");
   player2Btn.classList.add("active");
 }
